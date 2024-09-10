@@ -18,8 +18,8 @@ int main() {
 			c = 0;
 			if (c > 24 || i == 0) {
 			for (x = 0; x < 24; x++) {
- 			a[x] = (rand() % 99) + 1;
-			b[x] = a[x]; }
+ 				a[x] = (rand() % 99) + 1;
+				b[x] = a[x]; }
 			}
 		
 		for (j = 0; j < 24; j++) {
@@ -73,83 +73,83 @@ int main() {
 }
     //Neste for serão imprimidas as 10 cartelas, no formato 6 x 4.
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 1:\n");
-    printf ("%i\t", car1[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 1:\n");
+    	printf ("%i\t", car1[i]); }
     printf ("\n\n");
 
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 2:\n");
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 2:\n");
     printf ("%i\t", car2[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 3:\n");
-    printf ("%i\t", car3[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 3:\n");
+    	printf ("%i\t", car3[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 4:\n");
-    printf ("%i\t", car4[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 4:\n");
+    	printf ("%i\t", car4[i]); }
     printf ("\n\n");
 
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 5:\n");
-    printf ("%i\t", car5[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 5:\n");
+    	printf ("%i\t", car5[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 6:\n");
-    printf ("%i\t", car6[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 6:\n");
+    	printf ("%i\t", car6[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 7:\n");
-    printf ("%i\t", car7[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 7:\n");
+    	printf ("%i\t", car7[i]); }
     printf ("\n\n");
 
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 8:\n");
-    printf ("%i\t", car8[i]); }
+    	if (i % 4 == 0 && i != 0)
+    	printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 8:\n");
+    	printf ("%i\t", car8[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 9:\n");
-    printf ("%i\t", car9[i]); }
+	    if (i % 4 == 0 && i != 0)
+ 	    printf ("\n");
+	    if (i == 0)
+	    printf ("A cartela 9:\n");
+	    printf ("%i\t", car9[i]); }
     printf ("\n\n");
     
     for (i = 0; i < 24; i++) {
-    if (i % 4 == 0 && i != 0)
-    printf ("\n");
-    if (i == 0)
-    printf ("A cartela 10:\n");
-    printf ("%i\t", car10[i]); }
+	    if (i % 4 == 0 && i != 0)
+	    printf ("\n");
+    	if (i == 0)
+    	printf ("A cartela 10:\n");
+    	printf ("%i\t", car10[i]); }
     printf ("\n\n");
     
     //Variáveis e vetores intrínsecos à decisão da cartela vencedora são incializados.
@@ -316,15 +316,27 @@ int main() {
 	    	printf ("\n");
 	    }
     } while (vencedor < 1);
-    printf ("\n");
+    printf ("\n\n");
     //A posição da cartela vencedora é determinada.
     for (i = 0; i < 10; i++)
     if (zeta[i] == 24)
     posicao = i + 1;
     
     //Imprimem-se os resultados.
+    j = 0;
+    printf ("Os numeros sorteados foram:\n");
+    for (i = 0; i < 99; i++) {
+    	if (box[i] == -1)
+    	break;
+    	else {
+    	printf ("%i\t", box[i]);
+		j++; }
+	}
+	printf ("\n\n");
     printf ("A quantidade de numeros sorteados foi %i.\n\n", j);
     printf ("A cartela vencedora foi a %i.\n", posicao);
+    
+    system ("pause");
 
 	return 0;
 	

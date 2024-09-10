@@ -227,7 +227,7 @@ int main() {
     	if (box[i] == -1)
     	break;
     	else {
-    	printf ("%i\t", box[i]);
+    	printf ("%i\t\t", box[i]);
 		j++; }
 	}
 	printf ("\n\n");
@@ -323,14 +323,12 @@ int main() {
     posicao = i + 1;
     
     //Imprimem-se os resultados.
-    j = 0;
     printf ("Os numeros sorteados foram:\n");
     for (i = 0; i < 99; i++) {
     	if (box[i] == -1)
     	break;
-    	else {
-    	printf ("%i\t", box[i]);
-		j++; }
+    	else 
+    	printf ("%i\t\t", box[i]);
 	}
 	printf ("\n\n");
     printf ("A quantidade de numeros sorteados foi %i.\n\n", j);
